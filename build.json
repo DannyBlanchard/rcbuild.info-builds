@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "UnknownManufacturer/hobbyking/RotorBits-HexCopter-Kit-With-Modular-Assembly-System--(KIT)",
+    "esc": "Hobbyking 30A Afro ESC",
+    "motor": "Hextronic DT-750",
+    "fc": "3DRobotics/Pixhawk",
+    "prop": [
+      "APC/11x4.7-SF-Prop",
+      "APC/11x4.7-SF-Pusher-Prop"
+    ],
+    "arm": "RotorBits Extruded Carbon Square Tube",
+    "battery": [
+      "Turnigy/nano-tech-5000mah-3S-35~70C-Lipo-Pack"
+    ],
+    "osd": "3DRobotics/MinimOSD-Rev.-1.1",
+    "receiver": "ImmersionRC/EZUHF-8-Channel-Lite-Receiver",
+    "flightcam": "Mobius Action Camera - Lens A - 1080P HD",
+    "hqcam": "Mobius Action Camera - Lens A - 1080P HD",
+    "videotx": "ReadyMadeRC/1.3GHz-200mw-Transmitter---US-VERSION",
+    "blackbox": "3DRobotics/Pixhawk",
+    "voltagereg": "Turnigy 3A UBEC with Noise Reduction"
+  },
+  "version": 1
 }
